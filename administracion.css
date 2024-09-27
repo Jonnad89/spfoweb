@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #484142; /* Texto gris oscuro */
+  }
+  
+  /* Contenido principal de la página de administración */
+  .admin-contenido {
+    max-width: 900px;
+    margin: 50px auto;  /* Centrar el contenido y separar del borde superior */
+    text-align: center;
+  }
+  
+  .admin-contenido h1 {
+    font-size: 2.5rem;
+    color: #2d2a71; /* Azul oscuro */
+    margin-bottom: 20px;
+  }
+  
+  .admin-contenido p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .admin-contenido img {
+    width: 100%; /* Imagen responsiva */
+    max-width: 700px; /* Limita el ancho de la imagen */
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Pie de página */
+  .footer {
+    background-color: #484142;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2d2a71; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-volver:hover {
+    background-color: #484142; /* Cambio de color al hacer hover */
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main > .btn-volver {
+    position: relative;
+    left: 40%;
+  }
+  .espaciado{
+    width: 100%;
+    height: 50%;
+    padding-bottom:90px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

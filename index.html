@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="./Assets/logo-medio.png" />
+    <title>SPFO</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo">
+            <img
+              src="./Assets/logo-icon.ico"
+              alt="icono personalizado"
+              width="60"
+              height="40"
+            />
+            SPFO
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">Inicio</a></li>
+
+            
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Sobre SPFO
+                <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="./vision-y-desarrollo.html" class="dropdown__link" id="vision">
+                    <i class="ri-pie-chart-line"></i> Visión Y Desarrollo
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="dropdown__link">
+                    <i class="ri-arrow-up-down-line"></i> Así Operamos
+                  </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown__link">
+                      <i class="ri-pie-chart-line"></i> Requerimientos
+                    </a>
+                  </li>
+  
+                  <li>
+                    <a href="#" class="dropdown__link">
+                      <i class="ri-arrow-up-down-line"></i> Debida Diligencia
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown__link">
+                      <i class="ri-pie-chart-line"></i> Logística
+                    </a>
+                  </li>
+  
+                  <li>
+                    <a href="#" class="dropdown__link">
+                      <i class="ri-arrow-up-down-line"></i> Gestores De Capital
+                    </a>
+                  </li>
+
+                <!--=============== DROPDOWN SUBMENU ===============-->
+                <!-- <li class="dropdown__subitem"> -->
+                  <div class="dropdown__link">
+                    <!-- <i class="ri-bar-chart-line"></i> Reports
+                    <i class="ri-add-line dropdown__add"></i> -->
+                  </div>
+
+                  <ul class="dropdown__submenu">
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-file-list-line"></i> Documents
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-cash-line"></i> Payments
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-refund-2-line"></i> Refunds
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="./administracion.html" class="nav__link" id="sobre-spfo">Administración</a></li>
+
+            <li><a href="#" class="nav__link">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== CAROUSEL ===============-->
+
+    <div class="carousel">
+      <div class="list">
+        <div class="item" style="background-image: url(./Assets/img1.jpg.jpg)">
+          <div class="content">
+            <div class="title">ENERGY FOR</div>
+            <div class="name"> YOUR LIFE</div>
+            <div class="des">
+                Alianza de calidad, seguridad y éxito..
+            </div>
+            <!-- <div class="btn">
+              <button>See More</button>
+              <button>Subscribe</button>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="item" style="background-image: url(./Assets/img2.jpg.jpg)">
+          
+        </div>
+<!-- 
+        <div class="item" style="background-image: url(./Assets/img1.jpg.jpg)">
+         
+          </div>
+          
+        </div>
+        <div class="item" style="background-image: url(./Assets/img2.jpg.jpg)">
+            
+            
+          </div> -->
+        
+      </div>
+      
+
+    
+
+
+
+      <!--next prev button-->
+      <div class="arrows">
+        <button class="prev"><</button>
+        <button class="next">></button>
+      </div>
+       
+
+      <!-- time running -->
+      <div class="timeRunning"></div>
+    </div>
+
+     <!-- ======== BIENVENIDA ======== -->
+      
+     <div class="contenedor">
+        <img src="./Assets/img3.jpg" alt="" class="img3">
+        <div class="texto-encima">
+           <h3>
+               Bienvenido a SPFO su compañia de confianza
+           </h3> 
+           <p>La Plataforma de suministro e inversiones más segura del sector energético y financiero.
+            <br>
+            <br>
+            Generamos soluciones de gran valor en el comercio internacional. </p>
+            <a href="./vision-y-desarrollo.html" class="btn">Sobre SPFO</a>
+        </div>
+      </div>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/main.js"></script>
+  </body>
+</html>
