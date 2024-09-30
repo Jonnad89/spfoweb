@@ -239,7 +239,7 @@ a {
 
 .dropdown__link:hover, 
 .dropdown__sublink:hover {
-  background-color: var(--black-color);
+  background-color: hsl(243, 46%, 30%, .6);
 }
 
 .dropdown__menu, 
@@ -267,7 +267,8 @@ a {
 }
 
 .dropdown__sublink {
-  background-color: var(--black-color-lighten);
+  /* background-color: var(--black-color-lighten); */
+  background-color: hsl(300, 1%, 66%, .6);
 }
 
 /*=============== BREAKPOINTS ===============*/
