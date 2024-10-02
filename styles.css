@@ -42,12 +42,6 @@
   margin: 0;
 }
 
-.energy{
-  padding-top: 40px;
-  color: #2d2a71;
-  display: flex;
-  justify-content: center;
-}
 
 body {
   font-family: var(--body-font);

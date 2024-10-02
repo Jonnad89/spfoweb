@@ -38,14 +38,16 @@ body {
 }
   
   /* Pie de página */
-  .footer {
-    background-color: #484142;
-    color: #ffffff;
+  footer {
+    background-color: #a9a8a9; /* Gris claro */
+    color: #2d2a71; /* Texto en azul oscuro */
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
   }
   
   .btn-volver {
