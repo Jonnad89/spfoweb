@@ -637,6 +637,7 @@ a {
         width: 50vh;
         height: 50vh;
         top: 40px;
+        
     }
 
     
@@ -675,7 +676,9 @@ a {
   .contenedor {
     position: relative;
     width: 100%; /* O ajusta el ancho según lo necesites */
-    margin-top: 50px; /* Puedes ajustar el margen para que esté separado de la sección anterior */
+    /* margin-top: 50px;  */
+    /* Puedes ajustar el margen para que esté separado de la sección anterior */
+    
   }
 
   .img3 {
