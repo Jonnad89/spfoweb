@@ -378,6 +378,7 @@ a {
     width: 100vw;
     height: 100vh;
     margin-top: -50px;
+    border: 1px solid;
     overflow: hidden;
     position: relative;
 }
@@ -637,7 +638,6 @@ a {
         width: 50vh;
         height: 50vh;
         top: 40px;
-        
     }
 
     
@@ -676,9 +676,7 @@ a {
   .contenedor {
     position: relative;
     width: 100%; /* O ajusta el ancho según lo necesites */
-    /* margin-top: 50px;  */
-    /* Puedes ajustar el margen para que esté separado de la sección anterior */
-    
+    margin-top: 50px; /* Puedes ajustar el margen para que esté separado de la sección anterior */
   }
 
   .img3 {
@@ -784,7 +782,7 @@ footer p {
   display: flex;
   justify-content: center;
   gap: 20px; /* Espacio entre los iconos */
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .redes i {

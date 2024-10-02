@@ -69,14 +69,5 @@ body {
   }
   
   /* Pie de página */
-  .footer {
-    background-color: #484142;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 0;
-  }
+
   

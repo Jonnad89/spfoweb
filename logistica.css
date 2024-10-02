@@ -7,11 +7,15 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 10px;
+    margin-top: 20px;
+}
+.container{
+  display: flex;
+  justify-content: center;
 }
 
 .contenedor-logistica {
@@ -20,6 +24,7 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Fondo transparente */
     border: 2px solid #2d2a71; /* Borde minimalista */
+    
     border-radius: 10px; /* Esquinas redondeadas */
     text-align: justify;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
@@ -59,14 +64,4 @@ p {
     align-items: center;
     justify-content: center;
     padding: 10px;
-  }
-
-  .footer {
-    background-color: #484142;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
   }

@@ -21,6 +21,7 @@ body {
   
   main {
     padding: 40px 20px;
+    /* background-color: hsl(351, 5%, 27%, .3); */
   }
   
   main h2 {
@@ -88,6 +89,25 @@ body {
     margin: 0;
     font-size: 1rem;
   }
+  
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los iconos */
+    /* margin: 20px 0; */
+  }
+  
+  .redes i {
+    font-size: 40px; /* Tamaño de los iconos */
+    color: #2d2a71; /* Color de los iconos */
+    transition: transform 0.3s ease;
+  }
+  
+  .redes i:hover {
+    transform: scale(1.2); /* Aumenta el tamaño cuando se pasa el mouse por encima */
+    color: #484142; /* Cambia el color cuando se pasa el mouse por encima */
+  }
+  
 
   /* Estilos del botón "Volver al Inicio" */
 .btn-volver {
