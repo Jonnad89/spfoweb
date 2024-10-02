@@ -31,6 +31,7 @@
 @media screen and (min-width: 1024px) {
   :root {
     --normal-font-size: 1rem;
+   ;
   }
 }
 
@@ -39,6 +40,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.energy{
+  padding-top: 40px;
+  color: #2d2a71;
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -87,6 +95,7 @@ a {
 /*=============== NAV ===============*/
 .nav {
   height: var(--header-height);
+
 }
 .nav__logo > img{
   width: 130px;
@@ -286,6 +295,7 @@ a {
 
 /* For large devices */
 @media screen and (min-width: 1118px) {
+  
   
   .container {
     margin-inline: auto;
@@ -590,6 +600,7 @@ a {
 /* Responsive Design */
 
 @media screen and (max-width: 999px){
+  
   .nav__logo > img{
     width: 90px;
     height: 60px;
@@ -626,6 +637,7 @@ a {
 }
 
 @media screen and (max-width: 690px){
+  
 
     .carousel{
         width: 50vh;
@@ -718,6 +730,7 @@ a {
   }
 
   @media screen and (max-width: 690px){
+    
 
     .texto-encima > h3{
         font-size: 16px;
@@ -754,4 +767,36 @@ a {
       .btn:hover {
         background-color: #a9a8a9; /* Color al hacer hover */
       }
+}
+
+
+
+footer {
+  background-color: #a9a8a9; /* Gris claro */
+  color: #2d2a71; /* Texto en azul oscuro */
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los iconos */
+  margin: 20px 0;
+}
+
+.redes i {
+  font-size: 40px; /* Tamaño de los iconos */
+  color: #2d2a71; /* Color de los iconos */
+  transition: transform 0.3s ease;
+}
+
+.redes i:hover {
+  transform: scale(1.2); /* Aumenta el tamaño cuando se pasa el mouse por encima */
+  color: #484142; /* Cambia el color cuando se pasa el mouse por encima */
 }
